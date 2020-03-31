@@ -20,12 +20,6 @@ module.exports = {
         publicPath: "/",
         contentBase: path.join(process.cwd(), "dist"),
         historyApiFallback: true,
-        hot: true,
-        host: "0.0.0.0",
-        allowedHosts: [
-            ".repl.it",
-            ".repl.co",
-            ".repl.run"
-        ]
+        hot: true
     }
 }
