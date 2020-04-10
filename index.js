@@ -1,3 +1,6 @@
-import angular from "angular";
+import angular from "angular";
 
-angular.module("AngularComponentDemo", []);
+angular.module("AngularComponentDemo", [])
+    .controller('sampleController', function($scope){
+        $scope.message = "Hello world";
+    });

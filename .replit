@@ -1,2 +1,0 @@
-language = "nodejs"
-run = "npm run start -- --host 0.0.0.0 --allowedHosts .repl.it,.repl.co,.repl.run"
